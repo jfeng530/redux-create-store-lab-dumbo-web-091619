@@ -1,5 +1,10 @@
 // write your createStore function here
 
+function createStore(reducer) {
+  
+}
+
+
 function candyReducer(state = [], action) {
   switch (action.type) {
     case 'ADD_CANDY':
