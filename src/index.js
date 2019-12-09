@@ -3,7 +3,10 @@
 function createStore(reducer) {
   let state;
   
-  
+  return {
+    getState,
+    dispatch
+  }
 }
 
 
